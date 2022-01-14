@@ -1,0 +1,26 @@
+{
+    "1": {
+        "class": 8,
+        "problem": "\ub458\ub808\uac00 \uac19\uc740 \uc815\uc721\uac01\ud615\uacfc \uc815\ud314\uac01\ud615\uc774 \uc788\uc2b5\ub2c8\ub2e4. \uc815\ud314\uac01\ud615\uc758 \ud55c \ubcc0\uc758 \uae38\uc774\uac00 12cm\uc77c \ub54c, \uc815\uc721\uac01\ud615\uc758 \ud55c \ubcc0\uc758 \uae38\uc774\ub294 \uba87 cm\uc778\uc9c0 \uad6c\ud574\ubcf4\uc138\uc694.",
+        "code": "a = 6\nb = 8\nc = 12\ny = c * b // a\nprint(y)",
+        "answer": "16"
+    },
+    "2": {
+        "class": 4,
+        "problem": "80\uacfc 120\uc744 \uc5b4\ub5a4 \uc218\ub85c \ub098\ub204\uba74 \ub450 \uc218 \ubaa8\ub450 \ub098\ub204\uc5b4\ub5a8\uc5b4\uc9d1\ub2c8\ub2e4. \uc5b4\ub5a4 \uc218 \uc911\uc5d0\uc11c \uac00\uc7a5 \ud070 \uc218\ub97c \uad6c\ud574 \ubcf4\uc2dc\uc624.",
+        "code": "import math\n\na = 80\nb = 120\ny = math.gcd(a, b)\nprint(y)",
+        "answer": "40"
+    },
+    "3": {
+        "class": 1,
+        "problem": "\ub4e4\uc774\uac00 8L\uc778 \uc138\uc22b\ub300\uc57c\uc5d0 \ubb3c\uc774 \ubc18\ub9cc\ud07c \ub4e4\uc5b4 \uc788\uc2b5\ub2c8\ub2e4. \uc774 \uc911\uc5d0\uc11c \uc138\uc218\ub97c \ud558\ub294 \ub370 2900mL\ub97c \uc0ac\uc6a9\ud588\uc2b5\ub2c8\ub2e4. \ub0a8\uc740 \ubb3c\uc758 \uc591\uc740 \uba87 mL\uc778\uac00\uc694?",
+        "code": "a = 8 * 1000\nb = 1 / 2\nc = 2900\ny = int(a * b - c)\nprint(y)",
+        "answer": "1100"
+    },
+    "4": {
+        "class": 1,
+        "problem": "\uc815\ubbfc\uc774\uac00 20\uc77c \ub3d9\uc548 12000\uc6d0\uc744 \ubaa8\uc73c\ub824\uace0 \ud560 \ub54c, \ud558\ub8e8\uc5d0 \uc5bc\ub9c8\uc529 \ubaa8\uc544\uc57c \ud558\ub098\uc694?",
+        "code": "a = 20\nb = 12000\ny = b // a\nprint(y)",
+        "answer": "600"
+    }
+}
